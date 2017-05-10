@@ -134,15 +134,30 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="SoftManage.cpp" />
+    <ClCompile Include="TaskManage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="softInfo.h" />
+    <ClInclude Include="SoftManage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TaskManage.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftManage.resx">
+      <DependentUpon>SoftManage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskManage.resx">
+      <DependentUpon>TaskManage.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

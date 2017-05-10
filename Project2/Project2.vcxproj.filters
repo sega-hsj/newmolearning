@@ -18,10 +18,30 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="SoftManage.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManage.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="softInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

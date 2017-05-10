@@ -1,0 +1,2 @@
+#include "SoftManage.h"
+
